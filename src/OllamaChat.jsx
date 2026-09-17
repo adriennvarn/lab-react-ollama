@@ -1,7 +1,7 @@
-import { useState } from "react";
-import Ollama from "ollama";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+import { useState } from "react"
+import Ollama from "ollama"
+import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 
 export default function OllamaChat() {
   // TODO: Add state for input, messages, loading, and error.
@@ -15,11 +15,11 @@ export default function OllamaChat() {
     // TODO: Add the assistant response to the message thread.
     // TODO: Show a helpful error if the request fails.
     // TODO: Turn loading off after success or failure.
-  };
+  }
 
   const clearChat = () => {
     // TODO: Clear messages, input, and error.
-  };
+  }
 
   return (
     <section className="chat-shell">
@@ -61,5 +61,5 @@ export default function OllamaChat() {
         </div>
       </div>
     </section>
-  );
+  )
 }

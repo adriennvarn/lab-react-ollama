@@ -1,5 +1,5 @@
-import OllamaChat from "./OllamaChat.jsx";
+import OllamaChat from "./OllamaChat.jsx"
 
 export default function App() {
-  return <OllamaChat />;
+  return <OllamaChat />
 }
